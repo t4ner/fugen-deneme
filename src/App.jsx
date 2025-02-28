@@ -14,7 +14,7 @@ const App = () => {
     <div className="overflow-x-hidden">
       <ScrollToTopOnMount />
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/uber-uns" element={<About />} />
         <Route path="/kontakt" element={<Contact />} />
         <Route path="/leistungen" element={<ServicesPage />} />
